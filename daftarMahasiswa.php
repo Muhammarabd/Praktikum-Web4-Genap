@@ -3,8 +3,8 @@
 include_once '../konten/header.php';
 require_once 'class_mahasiswa.php';
 
-$mahasiswa1 = new Mahasiswa('0110121172', 'Sky', '2020', 'Informatics', '3.8');
-$mahasiswa2 = new Mahasiswa('0110121188', 'Artemis', '2021', 'Psychology', '4.0');
+$mahasiswa1 = new Mahasiswa('0110121172', 'Bryan', '2020', 'Hubungan Internasional', '3.5');
+$mahasiswa2 = new Mahasiswa('0110121188', 'Afra', '2021', 'Teknik Industri', '3.9');
 
 $nim = $mahasiswa1->nim;
 
